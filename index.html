@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Eventos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 10px;
+            max-width: 300px;
+            width: 100%;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .card-description {
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Mis Eventos</a>
+        <a href="#">Eventos Registrarse</a>
+    </nav>
+
+    <div class="card">
+        <img src="event1.jpg" alt="Event 1">
+        <div class="card-content">
+            <h2 class="card-title">Evento 1</h2>
+            <p class="card-description">Descripción del evento 1.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="event2.jpg" alt="Event 2">
+        <div class="card-content">
+            <h2 class="card-title">Evento 2</h2>
+            <p class="card-description">Descripción del evento 2.</p>
+        </div>
+    </div>
+
+    <!-- Agrega más tarjetas según sea necesario -->
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
